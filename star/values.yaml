@@ -3,7 +3,7 @@ ingressNamespace: ingress-nginx
 studentAppName: moviestar
 studentHostName: moviestar
 studentAppPort: 80
-studentVersion: 2
+studentVersion: 3
 
 
 branch: master
