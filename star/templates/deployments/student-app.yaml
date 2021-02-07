@@ -16,7 +16,7 @@ spec:
         app: student
     spec:
       containers:
-        - image: einavl/{{.Values.studentAppName}}:{{.Values.branch}}
+        - image: einavl/{{.Values.studentAppName}}:latest
           name: student
           ports:
             - containerPort: {{.Values.studentAppPort}}
