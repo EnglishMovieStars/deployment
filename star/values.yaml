@@ -1,4 +1,4 @@
-nameSpace: moviestar
+nameSpace: stars
 ingressNamespace: ingress-nginx
 studentAppName: moviestar
 studentHostName: moviestar
