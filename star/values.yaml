@@ -1,5 +1,5 @@
 nameSpace: moviestars
-ingressNamespace: moviestars-ingress
+ingressNamespace: ingress-nginx
 studentAppName: moviestar
 studentHostName: moviestar
 studentAppPort: 80
