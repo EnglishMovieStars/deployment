@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: student
+  namespace: "{{.Values.nameSpace}}"
+  labels:
+    app: student
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: student
+  template:
+    metadata:
+      labels:
+        app: student
+    spec:
+      containers:
+        - image: einavl/{{.Values.studentAppName}}:{{.Values.branch}}
+          name: student
+          ports:
+            - containerPort: {{.Values.studentAppPort}}

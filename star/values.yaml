@@ -1,0 +1,7 @@
+nameSpace: moviestars
+ingressNamespace: moviestars-ingress
+studentAppName: moviestar
+studentHostName: moviestar
+studentAppPort: 80
+
+branch: master
