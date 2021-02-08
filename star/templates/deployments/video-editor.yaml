@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: video-editor
+  namespace: "{{.Values.nameSpace}}"
+  labels:
+    app: video-editor
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: video-editor
+  template:
+    metadata:
+      labels:
+        app: video-editor
+    spec:
+      containers:
+        - image: einavl/{{.Values.videoEditorAppName}}:{{.Values.videoEditorVersion}}
+          name: video-editor
+          ports:
+            - containerPort: {{.Values.videoEditorAppPort}}
