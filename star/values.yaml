@@ -7,7 +7,7 @@ videoEditorHostName: video-editor
 studentAppPort: 80
 videoEditorAppPort: 5000
 studentVersion: 5
-videoEditorVersion: 1
+videoEditorVersion: 2
 
 
 branch: master

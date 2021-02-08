@@ -47,7 +47,7 @@ steps:
         type: "build"
         image_name: "einavl/videomerge"
         working_directory: "${{clone-video-editor}}"
-        tag: "1"
+        tag: "2"
         dockerfile: "Dockerfile"
         stage: "build"
 
