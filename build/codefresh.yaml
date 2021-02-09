@@ -39,7 +39,7 @@ steps:
         type: "build"
         image_name: "einavl/moviestar"
         working_directory: "${{clone-student}}"
-        tag: "7"
+        tag: "8"
         dockerfile: "Dockerfile"
         stage: "build"
       build-video-editor-app:
