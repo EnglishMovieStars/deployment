@@ -4,9 +4,9 @@ studentAppName: moviestar
 videoEditorAppName: videomerge
 studentHostName: moviestar
 videoEditorHostName: video-editor
-studentAppPort: 80
+studentAppPort: 1234
 videoEditorAppPort: 5000
-studentVersion: 8
+studentVersion: 9
 videoEditorVersion: 2
 
 
