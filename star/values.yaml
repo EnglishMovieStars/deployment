@@ -6,7 +6,7 @@ studentHostName: moviestar
 videoEditorHostName: video-editor
 studentAppPort: 80
 videoEditorAppPort: 5000
-studentVersion: 5
+studentVersion: 6
 videoEditorVersion: 2
 
 
