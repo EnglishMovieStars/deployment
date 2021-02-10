@@ -1,0 +1,14 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: ingress
+  namespace: "{{.Values.nameSpace}}"
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+    - http:
+        paths:
+          - backend:
+              serviceName: "{{.Values.videoEditorHostName}}"
+              servicePort: 5000
