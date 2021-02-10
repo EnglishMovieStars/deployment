@@ -1,12 +1,16 @@
 nameSpace: stars
 ingressNamespace: ingress-nginx
 studentAppName: moviestar
+resultsAtomizetAppName: resultsAtomize
 videoEditorAppName: videomerge
 studentHostName: moviestar
+resultsAtomizentHostName: resultsAtomize
 videoEditorHostName: video-editor
 studentAppPort: 1234
+resultsAtomizetAppPort: 1234
 videoEditorAppPort: 5000
 studentVersion: 9
+resultsAtomizentVersion: 1
 videoEditorVersion: 2
 
 

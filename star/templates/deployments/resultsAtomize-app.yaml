@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: resultsAtomize
+  namespace: "{{.Values.nameSpace}}"
+  labels:
+    app: resultsAtomize
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: resultsAtomize
+  template:
+    metadata:
+      labels:
+        app: resultsAtomize
+    spec:
+      containers:
+        - image: einavl/{{.Values.resultsAtomizetAppName}}:{{.Values.resultsAtomizentVersion}}
+          name: resultsAtomize
+          ports:
+            - containerPort: {{.Values.resultsAtomietAppPort}}
