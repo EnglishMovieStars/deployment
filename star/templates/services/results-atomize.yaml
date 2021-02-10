@@ -9,4 +9,4 @@ spec:
     - port: 8090
       targetPort: {{.Values.resultsAtomizetAppPort}}
   selector:
-    app: resultsAtomize
+    app: results-atomize
