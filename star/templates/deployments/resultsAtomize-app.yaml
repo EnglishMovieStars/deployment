@@ -19,4 +19,4 @@ spec:
         - image: einavl/{{.Values.resultsAtomizetAppName}}:{{.Values.resultsAtomizentVersion}}
           name: resultsAtomize
           ports:
-            - containerPort: {{.Values.resultsAtomietAppPort}}
+            - containerPort: {{.Values.resultsAtomizetAppPort}}
